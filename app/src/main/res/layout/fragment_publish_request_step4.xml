@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/which_day_do_you_want_the_work"
+                  app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                  android:layout_marginStart="20dp" app:layout_constraintEnd_toEndOf="parent"
+                  android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.073"
+                  android:layout_marginTop="60dp" app:layout_constraintTop_toTopOf="parent" android:id="@+id/textView6"
+                  android:textSize="16sp"
+                  android:textColor="@color/dark_blue"/>
+
+        <RadioGroup
+                android:id="@+id/radioGroupDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:backgroundTint="@color/radio_button_circle"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView6"
+                android:layout_marginEnd="20dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="20dp">
+
+            <RadioButton
+                    android:id="@+id/radioToday"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:checked="true"
+                    android:text="@string/today"
+                    android:textColor="@color/radio_button_text_color"
+                    android:button="@drawable/custom_button_background"
+                    android:layout_marginBottom="5dp"
+                    android:padding="15dp"
+            />
+
+            <RadioButton
+                    android:id="@+id/radioTomorrow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/tomorrow"
+                    android:textColor="@color/radio_button_text_color"
+                    android:button="@drawable/custom_button_background"
+                    android:padding="15dp"
+                    android:layout_marginBottom="5dp"/>
+
+            <RadioButton
+                    android:id="@+id/radioDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/select_another_date"
+                    android:textColor="@color/radio_button_text_color"
+                    android:button="@drawable/custom_button_background"
+                    android:padding="15dp"/>
+
+        </RadioGroup>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:text="@string/which_time_do_you_want_the_work"
+                  app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                  android:layout_marginStart="20dp" app:layout_constraintEnd_toEndOf="parent"
+                  android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.073"
+                  android:layout_marginTop="100dp" app:layout_constraintTop_toTopOf="parent"
+                  android:textSize="16sp"
+                  android:textColor="@color/dark_blue"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      tools:layout_editor_absoluteX="0dp" android:layout_marginTop="10dp"
+                      app:layout_constraintTop_toBottomOf="@+id/radioGroupDate">
+            <CheckBox
+                    android:id="@+id/morningCheckbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/morning"
+                    android:checked="true"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp" app:layout_constraintBottom_toTopOf="@+id/noonCheckbox"
+                    android:layout_marginBottom="5dp"
+                    android:padding="15dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    android:button="@drawable/custom_checkbox"
+            />
+
+            <CheckBox
+                    android:id="@+id/noonCheckbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/noon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginLeft="20dp" android:layout_marginStart="20dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="20dp" android:layout_marginRight="20dp"
+                    app:layout_constraintBottom_toTopOf="@+id/eveningCheckbox"
+                    android:layout_marginBottom="5dp"
+                    android:padding="15dp"
+                    android:button="@drawable/custom_checkbox"/>
+
+            <CheckBox
+                    android:id="@+id/eveningCheckbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/evening"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.492"
+                    android:padding="15dp"
+                    android:button="@drawable/custom_checkbox"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

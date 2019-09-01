@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RecycleViewExample</string>
+    <string name="handiman">הנדימן</string>
+    <string name="description">הלו שלום מגי כיחכח כיגי גחגחדיטק מבהשק</string>
+    <string name ="new_str">חדש!</string>
+    <string name="number_supplier">נותני שירות</string>
+    <string name="verification_phone_before_publish">אימות מספר טלפון לפני פרסום</string>
+
+    <string name="save_and_close">סגור ושמור</string>
+
+    <string name="open_new_request">פתיחת בקשה חדשה</string>
+    <string name="next">המשך </string>
+    <string name="select_category">בחר קטגוריה</string>
+    <string name="request_handiman">בקשה להנדימן</string>
+    <string name="send_verification">שלח קוד אימות</string>
+    <string name="what_is_the_skills_that_you_request">מה תחום המקצועיות הנדרש?</string>
+    <string name="select_one_category_from_the_next_category">בחרו תחום אחד מתוך התחומים הבאים</string>
+    <string name="What_is_the_subject_of_your_request">מה נושא הבקשה?</string>
+    <string name="subject">נושא הבקשה</string>
+    <string name="for_example">לדוגמא</string>
+    <string name="more_comments">יש לך הערות נוספות?</string>
+    <string name="desription_example_subtitle">צביעות חדרים,צביעות משרדים,תיקוני צבע,\nהחלקת קירות</string>
+    <string name="today">היום</string>
+    <string name="tomorrow">מחר</string>
+    <string name="select_another_date">בחר תאריך אחר</string>
+    <string name="which_day_do_you_want_the_work">באיזה יום תרצו לבצע את העבודה?</string>
+    <string name="morning">בוקר (7:00-12:00)</string>
+    <string name="noon">צהריים (7:00-12:00)</string>
+    <string name="evening">ערב (7:00-12:00)</string>
+    <string name="which_time_do_you_want_the_work">באיזו שעה נוח לכם?</string>
+
+</resources>

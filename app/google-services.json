@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "634188590647",
+    "firebase_url": "https://remoteconfig-14f14.firebaseio.com",
+    "project_id": "remoteconfig-14f14",
+    "storage_bucket": "remoteconfig-14f14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634188590647:android:f68b69254d7f6dc4",
+        "android_client_info": {
+          "package_name": "com.example.tavorcohen.recycleviewexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634188590647-1tblc8qk2fc6f1n1am43uqic23hnh0jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9hR70O_vyOb3fjvttpQHi495-WbMPPpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634188590647-1tblc8qk2fc6f1n1am43uqic23hnh0jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

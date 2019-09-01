@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingDefaultResource">
+    <entry>
+        <key>host</key>
+        <value>https://www.walla.co.il/</value>
+    </entry>
+
+
+</defaultsMap>

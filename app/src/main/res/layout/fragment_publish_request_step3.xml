@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:custom_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     >
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+        <LinearLayout android:layout_width="match_parent"
+                                                     android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/What_is_the_subject_of_your_request"
+
+                      android:textSize="16sp"
+                      android:textColor="@color/blue" android:layout_marginTop="60dp"
+                      custom_view:layout_constraintTop_toTopOf="parent" android:layout_marginStart="8dp"
+                      custom_view:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                      android:layout_marginEnd="8dp" custom_view:layout_constraintEnd_toEndOf="parent"
+                      android:layout_marginRight="8dp" custom_view:layout_constraintHorizontal_bias="0.0"
+                      android:id="@+id/textView3"/>
+
+            <EditText
+                    android:id="@+id/title_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/edit_text_borders"
+                    android:gravity="center|start"
+                    android:hint="@string/subject"
+                    android:inputType="text"
+                    android:maxLength="60"
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:textColor="@color/text_dark"
+                    android:textColorHint="@color/text_light"
+                    android:textSize="17sp"
+                    android:layout_marginEnd="8dp"
+                    custom_view:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp" custom_view:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginLeft="8dp" android:layout_marginTop="8dp"
+                    custom_view:layout_constraintTop_toBottomOf="@+id/textView3"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:text="@string/more_comments"
+                      android:textSize="16sp"
+                      android:textColor="@color/blue"
+                      custom_view:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                      android:layout_marginStart="8dp" custom_view:layout_constraintEnd_toEndOf="parent"
+                      android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                      custom_view:layout_constraintHorizontal_bias="0.032"
+                      android:layout_marginTop="308dp" custom_view:layout_constraintTop_toBottomOf="@+id/title_et"
+                      android:id="@+id/textView4"/>
+            <EditText
+                    android:id="@+id/description_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_borders"
+                    android:focusable="true"
+                    android:gravity="top|start"
+                    android:hint="@string/for_example"
+                    android:inputType="textMultiLine"
+                    android:maxLength="3000"
+                    android:minHeight="100dp"
+                    android:padding="10dp"
+                    android:textColor="@color/text_dark"
+                    android:textColorHint="@color/text_light"
+                    android:textSize="17sp"
+                    android:layout_marginEnd="8dp"
+                    custom_view:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp" custom_view:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginLeft="8dp"
+                    custom_view:layout_constraintTop_toBottomOf="@+id/textView4"
+                    custom_view:layout_constraintHorizontal_bias="0.0"
+                    custom_view:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="8dp" custom_view:layout_constraintVertical_bias="1.0"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+

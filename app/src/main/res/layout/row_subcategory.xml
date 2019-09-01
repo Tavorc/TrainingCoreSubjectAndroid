@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="start"
+              android:orientation="horizontal"
+              android:background="@drawable/bg_row_subcategory"
+              android:padding="5dp"
+              android:layout_marginBottom="5dp">
+
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginStart="20dp"
+                  >
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/subCategoryTitle"
+                  android:text="עבודות צבע"
+                  android:textSize="16sp"
+                  android:textColor="@color/blue"
+        />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/subCategoryDescription"
+                  android:text="@string/desription_example_subtitle"
+                  android:textSize="16sp"
+                  android:textColor="@color/blue"
+        />
+
+    </LinearLayout>
+
+    <ImageView android:id="@+id/imageArrow"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+               android:src="@drawable/more"
+               android:layout_centerVertical="true"
+               android:layout_alignParentEnd="true"
+               android:layout_marginEnd="20dp"
+    />
+
+</RelativeLayout>

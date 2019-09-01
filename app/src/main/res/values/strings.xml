@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RecycleViewExample</string>
+    <string name="handiman">handiman</string>
+    <string name="description">dsfg dfghadfh utts optuy ncvb klfd</string>
+    <string name="new_str">new!</string>
+    <string name="number_supplier">suppliers</string>
+    <string name="verification_phone_before_publish">Verification phone number before publishing</string>
+
+    <string name="save_and_close">סגור ושמור</string>
+    <string name="open_new_request">Open new request</string>
+    <string name="next">Next </string>
+    <string name="select_category">Select category</string>
+    <string name="request_handiman">Request To handiman</string>
+    <string name="send_verification">Send verification</string>
+    <string name="what_is_the_skills_that_you_request">What is the professionalism that required? </string>
+    <string name="select_one_category_from_the_next_category">Select one domain from the ne</string>
+    <string name="subject">Subject of the request</string>
+    <string name="What_is_the_subject_of_your_request">What is the subject of your request?</string>
+
+    <string name="for_example">For example</string>
+    <string name="more_comments">Do you have more comments?</string>
+    <string name="desription_example_subtitle">Paint room, paint offices </string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="select_another_date">Select another date</string>
+    <string name="which_day_do_you_want_the_work">Which day Do you want to do the work</string>
+    <string name="morning">Morning (7:00-12:00)</string>
+    <string name="noon">Noon (7:00-12:00)</string>
+    <string name="evening">Evening (7:00-12:00)</string>
+    <string name="which_time_do_you_want_the_work">Which time is good for you?</string>
+
+</resources>
