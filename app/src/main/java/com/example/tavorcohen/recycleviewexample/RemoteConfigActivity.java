@@ -18,7 +18,7 @@ public class RemoteConfigActivity extends AppCompatActivity {
     private static final String KEY_HOST="host";
     private static final String KEY_PROD = "prod";
     private WebView mWebView;
-    private ArrayList<String> mPhoneNumberList;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,8 +32,7 @@ public class RemoteConfigActivity extends AppCompatActivity {
 
     private void initView(){
         mWebView = findViewById(R.id.webView);
-        mPhoneNumberList =new ArrayList<>();
-        mPhoneNumberList.add("0542341881");
+
     }
 
     /**
@@ -78,10 +77,5 @@ public class RemoteConfigActivity extends AppCompatActivity {
     public void displayUrl() {
         String urlDev = mFirebaseRemoteConfig.getString(KEY_HOST);
         mWebView.loadUrl(urlDev);
-    }
-
-
-    private String getUserPhone(){
-        return "0542341881";
     }
 }

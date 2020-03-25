@@ -35,8 +35,7 @@
         </activity>
         <activity android:name=".RemoteConfigActivity">
         </activity>
-        <activity android:name=".MensorySecondSolutionActivity">
-        </activity>
+
 
         <service
                 android:name=".customNotification.fcm.MyServiceFirebaseNotification"

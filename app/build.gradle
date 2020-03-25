@@ -41,6 +41,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:18.0.0'
 
     implementation 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+    implementation 'android.arch.navigation:navigation-fragment-ktx:1.0.0'
+    implementation 'android.arch.navigation:navigation-ui-ktx:1.0.0'
 
 
 }

@@ -9,18 +9,6 @@
         android:gravity="center"
         android:layout_centerHorizontal="true">
 
-    <!--<com.example.tavorcohen.recycleviewexample.customStepBar.StepsBarView android:layout_width="300dp"-->
-                                                                          <!--android:layout_height="wrap_content"-->
-
-                                                                          <!--app:layout_constraintBottom_toBottomOf="parent"-->
-
-                                                                          <!--app:layout_constraintTop_toTopOf="parent"-->
-                                                                          <!--app:layout_constraintEnd_toEndOf="parent"-->
-
-                                                                          <!--app:layout_constraintStart_toStartOf="parent"-->
-                                                                         <!--&gt;-->
-
-    <!--</com.example.tavorcohen.recycleviewexample.customStepBar.StepsBarView>-->
 
 
     <ListView
