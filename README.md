@@ -4,5 +4,5 @@
 - Service
 - Custom views
 - Animation for Recycleview
-- Remote config
+- Remote config using Firebase
 - Recycleview with multiple view type
