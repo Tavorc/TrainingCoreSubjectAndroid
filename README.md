@@ -1,4 +1,4 @@
-# Implementing few Android core subject
+# Implementing few Android core subjects
 - Notification using Firebase
 - Intent service
 - Service
